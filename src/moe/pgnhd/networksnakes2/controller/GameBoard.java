@@ -71,7 +71,7 @@ public class GameBoard {
 			for(Snake first : snakes) {
 				for(Snake other : snakes) {
 					if(snakesCollide(first, other) != null) {
-						//System.exit(0);
+						System.exit(0);
 					}
 				}
 			}
