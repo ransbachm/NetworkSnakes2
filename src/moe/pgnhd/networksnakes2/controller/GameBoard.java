@@ -13,8 +13,8 @@ import moe.pgnhd.networksnakes2.model.Snake;
 
 public class GameBoard {
 	// must stay final, DrawPanel depends
-	public final int X_RES = 5;
-	public final int Y_RES = 5;
+	public final int X_RES = 20;
+	public final int Y_RES = 13;
 	
 	// must be threadsafe
 	public List<Snake> snakes = Collections.synchronizedList(new ArrayList<>());
